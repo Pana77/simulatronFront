@@ -9,7 +9,7 @@ import { HeroService } from '../hero.service';
   styleUrl: './heroes.component.css',
 })
 
-export class HeroesComponent {
+export class HeroesComponent implements OnInit{
 
   heroes: Hero[] = [];
 
